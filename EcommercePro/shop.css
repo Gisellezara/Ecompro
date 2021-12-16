@@ -3,6 +3,30 @@
     padding: 0; 
     box-sizing: border-box;
 }
+header{
+    width: 100%;
+   
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: salmon;
+
+}
+li{
+    float: left;
+
+}
+li a{
+    display: inline-block;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-color: thistle;
+}
 .grid-Container{
     display: grid;
     width: 100%;
@@ -41,3 +65,20 @@
         grid-template-columns: repeat(1,12fr);
     }
 }
+footer{
+    background-color: salmon;
+    width: 100%;
+
+    border: 15px salmon;
+}
+
+.footer{
+    color: white;
+
+    text-align: center;
+
+    }
+
+#copyright{
+    color: white;
+    }
