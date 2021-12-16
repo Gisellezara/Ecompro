@@ -1,0 +1,60 @@
+*{
+    font-family: Snell Roundhound, cursive;
+}
+header{
+    width: 100%;
+   
+} 
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: salmon;
+
+}
+li{
+    float: left;
+
+}
+li a{
+    display: inline-block;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-color: thistle;
+}
+
+.heroimg{
+    width: 100%;
+    opacity: 95%;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 25px;
+    color: salmon;
+    
+  }
+  footer{
+    background-color: salmon;
+    width: 100%;
+
+    border: 15px salmon;
+}
+
+.footer{
+    color: white;
+
+    text-align: center;
+
+    }
+
+#copyright{
+    color: white;
+    }
+  
